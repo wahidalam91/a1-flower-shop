@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+/* Shared Styles */
+.btn-primary{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+
+    border: 0;
+    border-radius: 8px;
+    background: #E55473;
+
+    padding: 20px 40px;
+}
+
+
+/* Banner Section Styles */
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: #E554731A;
+    background-position: cover;
+
+    padding-top: 50px;
+}
+
+.banner-text-section{
+    padding: 50px 120px;
+}
+
+.banner-title{
+    color: #272727;
+    font-size: 60px;
+    font-weight: 800;
+
+    max-width: 500px;
+
+}
+
+.banner-description{
+    color: gray;
+    font-size: 18px;
+    font-weight: 400;
+
+    padding: 30px 0;
+}
+
+.banner-image{
+    width: 500px;
+    padding: 0px 90px;
+
+}
