@@ -1,5 +1,37 @@
 *{
     margin: 0;
+    font-family: 'Abril Fatface', cursive;
+
+}
+
+/* Extra Meaningful Section_Nav Bar Styles */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: maroon;
+
+    padding: 20px 50px;
+}
+
+.nav li{
+    display: inline;
+}
+
+.nav li a {
+    color: gainsboro;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+
+    padding: 0 20px;
+}
+
+.nav-title{
+    color: gainsboro;
+    font-size: 60px;
+    padding-left: 50px;
 }
 /* Shared Styles */
 .btn-primary{
@@ -171,13 +203,8 @@
 /* Social Media Styles */
 .ad-flowers{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-
-    background-color: #E55473;
-
-
-    /* margin: 20px 100px; */
     
 }
 
